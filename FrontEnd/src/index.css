@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+/* Common styles for dropdown and buttons */
+.dropdown,
+.upload-container,
+.upload-heading,
+.file-input,
+.custom-file-input,
+.file-name {
+  margin-top: 20px;
+}
+
+/* Common styles for buttons */
+button,
+.custom-file-input {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+/* Styles for the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Styles for the dropdown button */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #2980b9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the dropdown content (the buttons inside the dropdown) */
+.dropdown-content,
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* Styles for the buttons inside the dropdown */
+.dropdown-content button,
+.dropdown-content2 button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+}
+
+/* Change button color on hover */
+.dropdown-content button:hover,
+.dropdown-content2 button:hover {
+  background-color: #2980b9;
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.dropdown:hover .dropdown-content,
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+/* Styles for the file input */
+.file-input {
+  display: none;
+}
+
+/* Styles for the custom file input button */
+.custom-file-input {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Change button color on hover */
+.custom-file-input:hover {
+  background-color: #2980b9;
+}
+
+/* Styles for the file name display */
+.file-name {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Styles for the run prediction button */
+button {
+  background-color: #27ae60;
+  color: white;
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+/* Change button color on hover */
+button:hover {
+  background-color: #219d54;
+}
+
+/* Body and general styles */
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole {
+  padding-top: 5%;
+}
+
+:root {
+  background-color: rgb(0, 0, 0);
+  --StrongCyan: hsl(171, 66%, 44%);
+  --LightBlue: hsl(233, 100%, 69%);
+  --DarkGrayishBlue: hsl(221, 77%, 66%);
+  --GrayishBlue: hsl(0, 0%, 100%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  background: url(./Assets/images/bg-header-mobile.png) no-repeat;
+  background-size: 100%;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.main {
+  max-width: 375px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  color: var(--DarkGrayishBlue);
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 3.25rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding: 0 1em;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  color: var(--GrayishBlue);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.4px;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+
+.header__img {
+  margin-top: 3em;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin-bottom: 3.5em;
+}
+
+li {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--DarkGrayishBlue);
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+/* Override */
+.resize {
+  width: fit-content;
+  margin: 0 auto 2em;
+}
+
+.agents .resize {
+  margin-bottom: 5em;
+}
+
+.footer img {
+  width: 15%;
+  margin-bottom: 4em;
+}
+
+/* Buttons */
+.buttons {
+  width: 90%;
+  margin: 0 auto 4em;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: block;
+  padding: 1em 0;
+  letter-spacing: 1px;
+  border-radius: 2em;
+  margin-bottom: 1.5em;
+}
+
+.buttons a:first-child {
+  background-color: var(--StrongCyan);
+}
+
+.buttons a:last-child {
+  background-color: var(--LightBlue);
+}
+
+/* Header section */
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Other margin */
+.access,
+.supercharge,
+.agents,
+.action {
+  margin-bottom: 7em;
+}
+
+.supercharge {
+  margin-top: -4em;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(0, 0, 0);
+  padding: 4em 0 1em;
+}
+
+.content {
+  margin-bottom: 4em;
+}
+
+.social a {
+  display: inline-block;
+  width: 15%;
+}
+
+.social img {
+  width: auto;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width:1024px) {
+  html {
+    font-size: 80%;
+  }
+
+  body {
+    background: url(./Assets/images/bg-header-desktop.png) no-repeat;
+  }
+
+  .main {
+    max-width: 1440px;
+    width: 90%;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .buttons a {
+    width: 25%;
+  }
+
+  .snippets {
+    padding-top: 10%;
+  }
+
+  .snippets__body {
+    display: flex;
+    gap: 5%;
+  }
+
+  .snippets__body__text {
+    text-align: left;
+  }
+
+  .supercharge_items,
+  .agents__items {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .supercharge_items {
+    padding-left: 4%;
+  }
+
+  .agents__items img {
+    height: 100%;
+  }
+
+  /* Footer */
+  .footer-container {
+    display: flex;
+  }
+
+  .footer-img {
+    width: 25%;
+    flex: 1;
+  }
+
+  .footer img {
+    margin-bottom: 0;
+  }
+
+  .content {
+    margin-bottom: 0;
+    flex: 2;
+  }
+
+  .content ul {
+    display: grid;
+    justify-items: start;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3em;
+  }
+
+  .content li:nth-of-type(1) {
+    order: 1;
+  }
+
+  .content li:nth-of-type(2) {
+    order: 4;
+  }
+
+  .content li:nth-of-type(3) {
+    order: 2;
+  }
+
+  .content li:nth-of-type(4) {
+    order: 5;
+  }
+
+  .content li:nth-of-type(5) {
+    order: 3;
+  }
+
+  .social {
+    flex: 1;
+  }
+
+  .desktop__text,
+  .access,
+  .action__head {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Add this CSS to your styles or create a new CSS file */
+.predict-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.downloadbtn {
+  margin-top: 2%;
+}
+
+
+/* Styles for the explanation container */
+.explanation-container {
+  margin-top: 20px;
+}
+
+/* Styles for the explanation heading */
+.explanation-heading {
+  color: #27ae60;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Styles for the explanation image */
+.explanation-container img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Styles for the CSV container */
+.csv-container {
+  margin-top: 20px;
+}
+
+/* Styles for the CSV heading */
+.csv-heading {
+  color: #27ae60;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Styles for the CSV data */
+.csv-container pre {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* Add this CSS to your existing stylesheet or create a new CSS file */
+
+/* Styles for the CSV container */
+.csv-container {
+  margin-top: 20px;
+  max-width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+/* Styles for the CSV heading */
+.csv-heading {
+  color: #27ae60;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Styles for the CSV table */
+.csv-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: white;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+
+/* Styles for the table headers */
+.csv-table th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+/* Styles for the table cells */
+.csv-table td {
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+/* Change background color on hover */
+.csv-table tr:hover {
+  background-color: #f5f5f5;
+}
