@@ -10,37 +10,16 @@ This repository aims to examine emerging trends and implications of AI in financ
 We have developed a prototype for this project, located in the "prototype" folder. The prototype demonstrates practical applications of XAI in finance, showcasing its potential in fraud detection, credit scoring, bankruptcy prediction, and stock market analysis.
 
 ## Group Members
-- Nevidu Jayatilleke
-  - IIT ID: 20200878
-  - RGU ID: 2017824
-
-- Naween Fernando
-  - IIT ID: 20200851
-  - RGU ID: 2017772
-
-- Navindu Balasooriya
-  - IIT ID: 20200864
-  - RGU ID: 2017775
-
-- Ashen Weerasinghe
-  - IIT ID: 20200986
-  - RGU ID: 2017899
-
-- Lakindu Induwara
-  - IIT ID: 20200987
-  - RGU ID: 2017900
-
-- Nithila Ariyapperuma
-  - IIT ID: 20200286
-  - RGU ID: 2016272
-
-- Dilan Perera
-  - IIT ID: 20200124
-  - RGU ID: 2016274
-
-- Amalsha Ranawaka
-  - IIT ID: 20201002
-  - RGU ID: 2017919
+| Name                 | IIT ID     | RGU ID   |
+|----------------------|------------|----------|
+| Nevidu Jayatilleke   | 20200878   | 2017824  |
+| Naween Fernando      | 20200851   | 2017772  |
+| Navindu Balasooriya  | 20200864   | 2017775  |
+| Ashen Weerasinghe    | 20200986   | 2017899  |
+| Lakindu Induwara     | 20200987   | 2017900  |
+| Nithila Ariyapperuma | 20200286   | 2016272  |
+| Dilan Perera         | 20200124   | 2016274  |
+| Amalsha Ranawaka     | 20201002   | 2017919  |
 
 ## Contents
 - **Introduction:** Overview of AI's impact on finance.
